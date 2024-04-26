@@ -1,0 +1,40 @@
+김선채@DESKTOP-8QMC6SI MINGW64 ~
+$ mkdir git_challenge
+
+김선채@DESKTOP-8QMC6SI MINGW64 ~
+$ cd git_challenge
+
+김선채@DESKTOP-8QMC6SI MINGW64 ~/git_challenge
+$ git init
+Initialized empty Git repository in C:/Users/김선채/git_challenge/.git/
+
+김선채@DESKTOP-8QMC6SI MINGW64 ~/git_challenge (main)
+$ touch hello_world.txt
+
+김선채@DESKTOP-8QMC6SI MINGW64 ~/git_challenge (main)
+$ echo 'Hello, world!' > hello_world.txt
+
+김선채@DESKTOP-8QMC6SI MINGW64 ~/git_challenge (main)
+$ git add .
+
+김선채@DESKTOP-8QMC6SI MINGW64 ~/git_challenge (main)
+$ git commit -m "最初のコミット"
+[main (root-commit) 793f687] 最初のコミット
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+
+김선채@DESKTOP-8QMC6SI MINGW64 ~/git_challenge (main)
+$ echo 'こんにちは、世界!' >> hello_world.txt
+
+김선채@DESKTOP-8QMC6SI MINGW64 ~/git_challenge (main)
+$ git add .
+
+김선채@DESKTOP-8QMC6SI MINGW64 ~/git_challenge (main)
+$ git commit -m "２回目のコミット"
+[main a298fa2] ２回目のコミット
+ 1 file changed, 1 insertion(+)
+
+김선채@DESKTOP-8QMC6SI MINGW64 ~/git_challenge (main)
+$ git log --oneline
+a298fa2 (HEAD -> main) ２回目のコミット
+793f687 最初のコミット
